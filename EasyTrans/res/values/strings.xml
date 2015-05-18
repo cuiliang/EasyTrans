@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="group_title_connect">连接</string>    
+    <string name="app_name">易传</string>
+	<string name="title_connection">连接设置</string>
+	<string name="pc_ip">PC端IP地址</string>
+	<string name="pc_port">端口</string>
+	<string name="btn_connect">连接</string>
+	<string name="group_title_files">传输</string>
+	<string name="group_title_takephoto">拍照上传</string>
+	
+	<string name="btn_takephoto">拍照</string>
+	<string name="btn_selectphoto">选择照片</string>
+	<string name="trans_service_started">易传已启动</string>
+	<string name="btn_disconnect">断开</string>
+	<string name="menu_exit">退出</string>
+	<string name="menu_settings">设置</string>
+	<string name="pref_cat_startup">启动</string>
+	<string name="pref_auto_connect_last_pc">自动连接上次成功连接的IP地址</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/pref_cat_startup" android:key="set_startup">
+        <CheckBoxPreference android:key="auto_connect_last_pc"
+            android:summary="启动后自动连接最后一次成功连接的PC端IP地址和端口"
+            android:title="@string/pref_auto_connect_last_pc"
+            android:defaultValue="true"/>
+        
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

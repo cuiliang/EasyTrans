@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_connection" />
+
+<TableLayout
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:shrinkColumns="0"
+    android:stretchColumns="1" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView android:text="@string/pc_ip" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtPcIP"
+            android:layout_width="match_parent"
+            android:text="192.168.1.61" 
+            android:inputType="phone"
+            android:digits="0123456789.">
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView android:text="@string/pc_port" >
+        </TextView>
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/txtPcPort"
+            android:layout_width="match_parent"
+            android:text="666" 
+            android:maxLength="5">
+        </EditText>
+    </TableRow>
+</TableLayout>
+
+<Button
+    android:id="@+id/btnConnect"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="200dp"
+    android:text="@string/btn_connect" />
+</LinearLayout>
